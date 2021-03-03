@@ -316,9 +316,11 @@ body {
   padding: 10px;
   background-color: #f6f5ef;
   align-items: center;
+  transition: 0.2s;
 }
 .comment-small:hover {
   background-color: #e8dcd3;
+  transition: 0.2s;
 }
 .comment-small:nth-child(2) {
   margin: 20px 0;
@@ -336,8 +338,91 @@ body {
 .footer__top {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  padding: 15px 0;
 }
 .footer__middle {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  padding: 0 0 20px 0;
+  border-top: 2px solid #444544;
+}
+.footer__about {
+  display: flex;
+}
+.footer__about-text {
+  margin: 0 100px 0 0;
+}
+.footer__title {
+  font-size: 20px;
+  line-height: 20px;
+  color: #f7f6f0;
+  font-weight: 400;
+  font-family: "Pacifico-Regular";
+  align-self: center;
+}
+.footer__img {
+  background-size: cover;
+  width: 92px;
+  height: 92px;
+}
+.socials-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+.socials {
+  display: flex;
+}
+.social {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #747672;
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+.social__img {
+  width: 75%;
+  height: 75%;
+  background-size: cover;
+}
+.social:hover {
+  background-color: #ebeae4;
+  transition: 0.2s;
+}
+.footer__white-text {
+  color: #ecebe5;
+}
+.footer__social-text::after {
+  content: "24 minutes ago";
+  color: #4b4c4b;
+}
+.footer__social {
+  margin: 0 10px;
+}
+.footer__subtitle {
+  font-size: 14px;
+  line-height: 12px;
+  color: #cfcec9;
+  font-family: "Ardleys Hand";
+  text-align: right;
+}
+.footer__bottom {
+  background-color: #a72626;
+  padding: 10px 0;
+}
+.footer-text-bottom {
+  font-size: 13px;
+  line-height: 20px;
+  color: #f2d6d6;
+  font-family: "Trebuchet MS";
+}
+.footer-text-bottom::after {
+  content: ".com";
+  color: #af5252;
 }
