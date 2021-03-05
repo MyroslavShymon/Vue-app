@@ -3,30 +3,6 @@ body {
   font-family: "Trebuchet MS";
   color: #424242;
 }
-@font-face {
-  font-family: Daniel;
-  src: url(../fonts/daniel.regular.otf);
-}
-@font-face {
-  font-family: Trebuchet MS;
-  src: url(../fonts/trebuschet.ttf);
-}
-@font-face {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  src: url(../fonts/verdana.TTF);
-}
-@font-face {
-  font-family: Ardleys Hand;
-  src: url(../fonts/ArdleysHand.ttf);
-}
-@font-face {
-  font-family: Pacifico-Regular;
-  src: url(../fonts/Pacifico-Regular.ttf);
-}
-@font-face {
-  font-family: Tahoma;
-  src: url(../fonts/TAHOMA.TTF);
-}
 .main-page-inner {
   max-width: 1280px;
   margin: 0 auto;
@@ -35,6 +11,8 @@ body {
 }
 .header {
   background-color: #282c2a;
+  position: sticky;
+  top: 0;
 }
 .header__inner {
   width: 100%;
@@ -78,8 +56,6 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
-.post {
-}
 .post__inner {
   width: 90%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -97,6 +73,7 @@ body {
   padding: 20px 15px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  align-items: center;
 }
 .post__title::before {
   content: "";
@@ -112,6 +89,7 @@ body {
   margin: 10px 15px;
   font-size: 11px;
   font-weight: bold;
+  align-items: center;
 }
 .post__data * {
   color: #635f44;
