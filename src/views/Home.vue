@@ -16,8 +16,13 @@
                     class="post-small__img"
                   />
                   <p class="post-small__paragraph">
+<<<<<<< HEAD
                     Lorem Ipsum is simply dummy text of the printing and type
                     settin industry. Lorem Ipsum
+=======
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesettin industry. Lorem Ipsum
+>>>>>>> cabbdfa8c3ed1d90486851d8d3e499d517d4d2a4
                   </p>
                 </div>
               </div>
@@ -46,8 +51,13 @@
                     class="post-small__img"
                   />
                   <p class="post-small__paragraph">
+<<<<<<< HEAD
                     Lorem Ipsum is simply dummy text of the printing and type
                     settin industry. Lorem Ipsum
+=======
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesettin industry. Lorem Ipsum
+>>>>>>> cabbdfa8c3ed1d90486851d8d3e499d517d4d2a4
                   </p>
                 </div>
               </div>
@@ -79,7 +89,11 @@
             <div class="aside__content-wrapper comments-small-wrapper">
               <div class="comment-small">
                 <img
+<<<<<<< HEAD
                   src="@/assets/images/avatars/Jake.png"
+=======
+                  src="../assets/images/Avatar_1.png"
+>>>>>>> cabbdfa8c3ed1d90486851d8d3e499d517d4d2a4
                   alt=""
                   class="comment-small__img"
                 />
@@ -91,7 +105,11 @@
               </div>
               <div class="comment-small">
                 <img
+<<<<<<< HEAD
                   src="../assets/images/avatars/Lucy.png"
+=======
+                  src="../assets/images/Avatar_2.png"
+>>>>>>> cabbdfa8c3ed1d90486851d8d3e499d517d4d2a4
                   alt=""
                   class="comment-small__img"
                 />
@@ -102,7 +120,11 @@
               </div>
               <div class="comment-small">
                 <img
+<<<<<<< HEAD
                   src="../assets/images/avatars/Jake.png"
+=======
+                  src="../assets/images/Avatar_1.png"
+>>>>>>> cabbdfa8c3ed1d90486851d8d3e499d517d4d2a4
                   alt=""
                   class="comment-small__img"
                 />

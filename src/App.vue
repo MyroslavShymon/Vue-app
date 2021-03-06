@@ -18,8 +18,12 @@ export default {
 </script>
 
 <style lang="scss">
+<<<<<<< HEAD
 @import "@/styles/normalize.scss";
 @import "@/styles/vars.scss";
+=======
+@import url(./normalize.css);
+>>>>>>> cabbdfa8c3ed1d90486851d8d3e499d517d4d2a4
 @font-face {
   font-family: Daniel;
   src: url(./fonts/daniel.regular.otf);
@@ -53,6 +57,10 @@ export default {
 body {
   background-color: #e2e1da;
   font-family: "Trebuchet MS";
+<<<<<<< HEAD
   color: $grey-text;
+=======
+  color: #424242;
+>>>>>>> cabbdfa8c3ed1d90486851d8d3e499d517d4d2a4
 }
 </style>
