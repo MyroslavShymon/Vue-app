@@ -1,0 +1,27 @@
+.form {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  &__item {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: #f2f1eb;
+    text-align: center;
+    line-height: 40px;
+    color: #737269;
+    &:nth-child(1) {
+      height: 40px;
+    }
+    &:nth-child(2) {
+      margin: 20px 0;
+      height: 40px;
+    }
+  }
+}
+.comment__form {
+  margin: 10px 0 0 0;
+  background-color: #ebeae4;
+}
+.input {
+  border-left: 2px solid #737269;
+}
