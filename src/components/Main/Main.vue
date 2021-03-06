@@ -37,7 +37,7 @@ export default {
           text: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
             deleniti. Consectetur repellat quisquam molestias ipsum illo sit
             voluptatibus enim porro! Enim odio eos pariatur explicabo tenetur
-            dolores sapiente? Quidem in nulla quaerat maxime animi! Assumenda sint
+            dolores sapiente? Quidem in nulla qua erat maxime animi! Assumenda sint
             nesciunt atque expedita quos porro eius cum repudiandae libero beatae
             nemo amet, excepturi adipisci aspernatur quasi voluptas dolore, est
             magnam at. At, fuga distinctio ipsa praesentium dolores necessitatibus
