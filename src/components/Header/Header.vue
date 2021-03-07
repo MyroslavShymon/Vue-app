@@ -43,6 +43,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/styles/vars.scss";
 .main-page-inner {
   max-width: 1280px;
   margin: 0 auto;
@@ -50,7 +51,7 @@ export default {
   height: 100%;
 }
 .header {
-  background-color: #282c2a;
+  background-color: $black-grey;
   position: sticky;
   top: 0;
   &__inner {
@@ -73,7 +74,7 @@ export default {
   padding: 10px 15px;
   background: #c12727;
   font-size: 33px;
-  color: #ffffff;
+  color: $white;
   font-family: "Daniel";
   text-align: center;
   text-shadow: 2px 3.464px 1.5px rgba(0, 0, 0, 0.4);
